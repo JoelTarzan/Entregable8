@@ -3,7 +3,7 @@ name: Publicar en GitHub Pages
 on:
   push:
     branches:
-      - gh-pages # cambiar a la rama principal de tu repositorio
+      - master # cambiar a la rama principal de tu repositorio
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
